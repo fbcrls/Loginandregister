@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    {box-sizing:border-box}
+}
+
+html,body{
+	min-width: 1280px;
+  	display: flex;
+  	flex-direction: column;
+  	width: 100%;
+  	background-color: #17202A  ; 
+}
+.userlogo{
+  margin-top: 150px;
+  text-align: center;
+  pointer-events: none;
+}
+.login_username {
+  margin-top: 15px;
+  text-align: center;
+}
+.login_username input {
+    font-family: 'Montserrat';
+    height: 100%;
+    width: 20%;
+    border: 1px solid grey;
+    outline: none;
+    background: #566573;
+    padding: 10px;
+}
+.login_username input::placeholder{
+  color: black;
+  opacity: 0.5;
+  text-align: center;
+}
+.login_password {
+  margin-top: 15px;
+  text-align: center;
+}
+.login_password input {
+    font-family: 'Montserrat';
+    height: 100%;
+    width: 20%;
+    border: 1px solid grey;
+    outline: none;
+    background: #566573;
+    padding: 10px;
+}
+.login_password input::placeholder{
+  color: black;
+  opacity: 0.5;
+  text-align: center;
+}
+.login_submit {
+  margin-top: 30px;
+  text-align: center;
+}
+.login_submit input {
+  font-family: 'Montserrat';
+  height: 100%;
+  width: 10%;
+  border: 1px #424949;
+  outline: none;
+  background: #424949;
+  cursor: pointer; 
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+.option1 {
+  margin-top: 10px;
+  text-align: center;
+}
+.option1 p{
+  font-family: 'Montserrat';
+  color: grey;
+  font-size: 12px;
+}
+.option1 a{
+  color: white;
+}
