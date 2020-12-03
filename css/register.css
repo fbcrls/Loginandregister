@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    {box-sizing:border-box}
+}
+
+html,body{
+	min-width: 1280px;
+  	display: flex;
+  	flex-direction: column;
+  	width: 100%;
+  	background-color: #17202A  ; 
+}
+.userlogo{
+  margin-top: 150px;
+  text-align: center;
+  pointer-events: none;
+}
+.register_username {
+  margin-top: 15px;
+  text-align: center;
+}
+.register_username input {
+    font-family: 'Montserrat';
+    height: 100%;
+    width: 20%;
+    border: 1px solid grey;
+    outline: none;
+    background: #566573;
+    padding: 10px;
+}
+.register_username input::placeholder{
+  color: black;
+  opacity: 0.5;
+  text-align: center;
+}
+.register_password {
+  margin-top: 15px;
+  text-align: center;
+}
+.register_password input {
+    font-family: 'Montserrat';
+    height: 100%;
+    width: 20%;
+    border: 1px solid grey;
+    outline: none;
+    background: #566573;
+    padding: 10px;
+}
+.register_password input::placeholder{
+  color: black;
+  opacity: 0.5;
+  text-align: center;
+}
+.register_email {
+  margin-top: 15px;
+  text-align: center;
+}
+.register_email input {
+    font-family: 'Montserrat';
+    height: 100%;
+    width: 20%;
+    border: 1px solid grey;
+    outline: none;
+    background: #566573;
+    padding: 10px;
+}
+.register_email input::placeholder{
+  color: black;
+  opacity: 0.5;
+  text-align: center;
+}
+.register_submit {
+  margin-top: 30px;
+  text-align: center;
+}
+.register_submit input {
+  font-family: 'Montserrat';
+  height: 100%;
+  width: 10%;
+  border: 1px #424949;
+  outline: none;
+  background: #424949;
+  cursor: pointer; 
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+.register_checkbox {
+  margin-top: 20px;
+  text-align: center;
+}
+.register_checkbox input{
+  display: inline-block;
+  width: 15px;
+  vertical-align: top;
+}
+.register_checkbox p{
+  font-family: 'Montserrat';
+  color: grey;
+  font-size: 10px;
+  display: inline-block;
+  width: 260px;
+  word-break: break-all;
+}
+.register_checkbox a{
+  color: white;
+}
